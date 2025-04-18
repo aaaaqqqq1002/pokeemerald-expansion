@@ -26735,3 +26735,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    const u32 gMonFrontPic_Porkachu[] = INCBIN_U32("graphics/pokemon/porkachu/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Porkachu[] = INCBIN_U32("graphics/pokemon/porkachu/back.4bpp.lz");
+    const u32 gMonPalette_Porkachu[] = INCBIN_U32("graphics/pokemon/porkachu/normal.gbapal.lz");
+    const u32 gMonShinyPalette_Porkachu[] = INCBIN_U32("graphics/pokemon/porkachu/shiny.gbapal.lz");
+    const u8 gMonIcon_Porkachu[] = INCBIN_U8("graphics/pokemon/porkachu/icon.4bpp");
+    const u8 gMonFootprint_Porkachu[] = INCBIN_U8("graphics/pokemon/porkachu/footprint.1bpp");

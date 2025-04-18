@@ -6301,3 +6301,16 @@ static const u16 sFrigibaxEggMoveLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_FRIGIBAX
+
+static const u16 sPorkachuEggMoveLearnset[] = {
+    MOVE_THUNDER_SHOCK,
+    MOVE_THUNDERBOLT,
+    MOVE_THUNDER_FANG,
+    MOVE_AMNESIA,
+    MOVE_DOUBLE_TEAM,
+    MOVE_SCREECH,
+    MOVE_CONFUSION,
+    MOVE_FLAIL,
+    MOVE_LUNGE,
+    MOVE_UNAVAILABLE,
+};

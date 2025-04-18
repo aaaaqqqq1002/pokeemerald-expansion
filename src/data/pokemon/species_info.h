@@ -173,7 +173,63 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
     /* You may add any custom species below this point based on the following structure: */
+    [SPECIES_PORKACHU] =
+    {
+        .baseHP        = 30,
+        .baseAttack    = 55,
+        .baseDefense   = 20,
+        .baseSpeed     = 95,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 40,
+        .types = MON_TYPES(TYPE_NORMAL),
+        .catchRate = 120,
+        .expYield = 50,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_QUICK_FEET, ABILITY_NONE, ABILITY_LIMBER },
+        .bodyColor = BODY_COLOR_BLUE,
+        .speciesName = _("Porkachu"),
+        .cryId = CRY_PORKACHU,
+        .natDexNum = NATIONAL_DEX_PORKACHU,
+        .categoryName = _("Lab Rat"),
+        .height = 3,
+        .weight = 28,
+        .description = COMPOUND_STRING(
+            "This mass produced thing is \n"
+            "definitely a Pikachu. It can even\n"
+            "learn a Pichu-type move!!!!!!!!"),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Porkachu,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(0, 1),
+        ),
+        .frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_Porkachu,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 7,
+        .backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_Porkachu,
+        .shinyPalette = gMonShinyPalette_Porkachu,
+        .iconSprite = gMonIcon_Porkachu,
+        .iconPalIndex = 0,
+        FOOTPRINT(Porkachu)
+        .levelUpLearnset = sPorkachuLevelUpLearnset,
+        .teachableLearnset = sPorkachuTeachableLearnset,
+        .eggMoveLearnset = sPorkachuEggMoveLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_MAGIKARP},
+                                {EVO_ITEM, ITEM_MOOMOO_MILK, SPECIES_MILTANK}),
+    },
 
+    
     /*
     [SPECIES_NONE] =
     {

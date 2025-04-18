@@ -35838,3 +35838,23 @@ static const u16 sPecharuntTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PECHARUNT
+
+static const u16 sPorkachuTeachableLearnset[] = {
+    MOVE_PROTECT,
+    MOVE_METRONOME,
+    MOVE_IRON_TAIL,
+    MOVE_LIGHT_SCREEN,
+    MOVE_REFLECT,
+    MOVE_SAFEGUARD,
+    MOVE_RETURN,
+    MOVE_FRUSTRATION,
+    MOVE_REST,
+    MOVE_SLEEP_TALK,
+    MOVE_SWIFT,
+    MOVE_SNORE,
+    MOVE_SWAGGER,
+    MOVE_SKILL_SWAP,
+    MOVE_FACADE,
+    MOVE_ATTRACT,
+    MOVE_UNAVAILABLE,
+};
