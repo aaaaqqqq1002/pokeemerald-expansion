@@ -229,7 +229,59 @@ const struct SpeciesInfo gSpeciesInfo[] =
                                 {EVO_ITEM, ITEM_MOOMOO_MILK, SPECIES_MILTANK}),
     },
 
-    
+    [SPECIES_TESTMAN] =
+    {
+        .baseHP        = 60,
+        .baseAttack    = 2,
+        .baseDefense   = 4,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 255,
+        .baseSpDefense = 4,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_BUG),
+        .catchRate = 255,
+        .expYield = 500,
+        .evYield_SpAttack = 3,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 1,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_GRASS),
+        .abilities = { ABILITY_SERENE_GRACE, ABILITY_BEAST_BOOST, ABILITY_RUN_AWAY },
+        .bodyColor = BODY_COLOR_BLACK,
+        .speciesName = _("Testman"),
+        .cryId = CRY_NONE,
+        .natDexNum = NATIONAL_DEX_NONE,
+        .categoryName = _("Test"),
+        .height = 10,
+        .weight = 10,
+        .description = COMPOUND_STRING(
+            "Testman alerts awepoifh aw\n"
+            "howDYOWHFOWEHFWEIOWHOFIOIEH."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_CircledQuestionMark,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_None,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_CircledQuestionMark,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 7,
+        .backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_CircledQuestionMark,
+        .shinyPalette = gMonShinyPalette_CircledQuestionMark,
+        .iconSprite = gMonIcon_QuestionMark,
+        .iconPalIndex = 0,
+        FOOTPRINT(QuestionMark)
+        .levelUpLearnset = sTestmanLevelUpLearnset,
+        .teachableLearnset = sTestmanTeachableLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 100, SPECIES_NONE},
+                                {EVO_ITEM, ITEM_POTION, SPECIES_FURFROU}),
+    },
+
+
     /*
     [SPECIES_NONE] =
     {

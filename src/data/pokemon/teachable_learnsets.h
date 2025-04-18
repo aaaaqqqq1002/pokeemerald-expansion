@@ -35858,3 +35858,8 @@ static const u16 sPorkachuTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sTestmanTeachableLearnset[] = {
+    MOVE_EXPLOSION,
+    MOVE_UNAVAILABLE,
+};

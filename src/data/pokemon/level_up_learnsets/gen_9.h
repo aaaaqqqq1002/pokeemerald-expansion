@@ -22333,3 +22333,12 @@ static const struct LevelUpMove sPorkachuLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 62, MOVE_PAIN_SPLIT),
     LEVEL_UP_END
 };
+
+static const struct LevelUpMove sTestmanLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
+    LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
+    LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
+    LEVEL_UP_MOVE( 1, MOVE_EXPLOSION),
+    LEVEL_UP_MOVE( 1, MOVE_HYPER_BEAM),
+    LEVEL_UP_END
+};

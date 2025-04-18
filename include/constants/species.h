@@ -1638,8 +1638,9 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 #define SPECIES_PORKACHU                                1524
+#define SPECIES_TESTMAN                                 1525
 
-#define SPECIES_EGG                                     (SPECIES_PORKACHU + 1)
+#define SPECIES_EGG                                     (SPECIES_TESTMAN + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
